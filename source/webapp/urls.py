@@ -9,7 +9,7 @@ from webapp.views.guests import confirm_delete
 
 urlpatterns = [
     path('', index_view, name='index'),
-    path('guest_book/', index_view, name='index'),
+    path('guest_book/', index_view, name='index_view'),
     path('guest_book/add/', add_view, name='guest_add'),
     path('guest_book/update/<int:pk>', update_view, name='guest_update'),
     path('guest_book/delete/<int:pk>', delete_view, name='guest_delete'),
