@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block content %}
+      <main role="main" class="inner cover">
+        <p class="lead">
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+            {% for guest in guests %}
+              <div class="col">
+                <div class="card text-bg-dark h-100">
+                  <div class="card-body">
+                    <h5 class="card-title">{{ guest.author }}</h5>
+                    <p class="card-text">Category: {{ guest.email }}</p>
+                    <p class="card-text">Price: {{ guest.content }} $</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">added: {{ guest.created_at }}</small>
+                  </div>
+                </div>
+              </div>
+            {% endfor %}
+            </div>
+        </p>
+      </main>
+
+      <footer class="mastfoot mt-auto">
+        <div class="inner">
+          <p>Kurentaev Adlet <a href="/">Contacts</a></p>
+        </div>
+      </footer>
+{% endblock %}
