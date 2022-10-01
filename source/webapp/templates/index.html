@@ -3,15 +3,15 @@
 {% block content %}
       <main role="main" class="inner cover">
         <p class="lead">
-            <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="row row-cols-1 g-4">
             {% for guest in guests %}
               <div class="col">
                 <div class="card text-bg-dark h-100">
                   <div class="card-body">
-                    <p class="card-title">{{ guest.author }} ({{ guest.email }})
-                    <a class="btn btn-danger mx-1" href="{% url 'guest_update' guest.pk %}">X</a>
-                    <a class="btn btn-danger mx-1" href="{% url 'guest_delete' guest.pk %}">O</a>
-                    </p>
+                    <h5 class="card-title">{{ guest.author }} ({{ guest.email }})
+                    <a href="{% url 'guest_update' guest.pk %}"><i class="bi bi-pencil-square"></i></a>
+                    <a href="{% url 'guest_delete' guest.pk %}"><i class="bi bi-trash3-fill"></i></a>
+                    </h5>
                     <p class="card-text">{{ guest.content }}</p>
                   </div>
                 </div>

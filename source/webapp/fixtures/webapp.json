@@ -1,0 +1,74 @@
+[
+{
+  "model": "webapp.guestslist",
+  "pk": 2,
+  "fields": {
+    "author": "The Narrator",
+    "email": "narrator@gmail.com",
+    "content": "When the story begins, Jack is a recall coordinator for a major car company (shown to be named \"Federated Motor Corporation\" in the film). He starts out suffering from chronic insomnia, causing him to slog through life in a flat, half-asleep state of depression. He finds temporary relief by attending various support groups under false pretenses; but when this stops working (thanks to Marla Singer) his insomnia returns with a vengeance. It's shortly after this when he \"meets\" Tyler Durden, and his average, boring life is turned upside down.",
+    "created_at": "2022-10-01T06:06:53.537Z",
+    "updated_at": "2022-10-01T08:30:52.614Z",
+    "status": "blocked"
+  }
+},
+{
+  "model": "webapp.guestslist",
+  "pk": 8,
+  "fields": {
+    "author": "Robert Paulson",
+    "email": "paulson@gmail.com",
+    "content": "His name was Robert Paulson, former bodybuilder, wrestler and creator of a chest expansion program. Due to his excessive use of steroids, he got testicular cancer. As a result of s removed, due to a hormone imbalance he later developed gynecomastia - which The Narrator refers to as \"bitch tits\". He is portrayed by Meat Loaf in the film.",
+    "created_at": "2022-10-01T08:26:23.052Z",
+    "updated_at": "2022-10-01T08:26:23.053Z",
+    "status": "active"
+  }
+},
+{
+  "model": "webapp.guestslist",
+  "pk": 9,
+  "fields": {
+    "author": "Tyler Durden",
+    "email": "tdurden@gmail.com",
+    "content": "Tyler worked several night jobs. Partly to fund himself while engaging in general subversion, but also to set up situations enabling him to blackmail his employers later. In addition to his jobs, Tyler made soap from human fat, which he collected from dumpsters behind liposuction clinics. He sold this soap to fancy department stores. The soap also functioned as a source of materials for homemade explosives. It's likely that Tyler was busy setting all of this up during the time the Narrator was attending the groups and was sleeping through the night (he thought he was, anyway). This would also be when he bought the Paper Street House under the Narrator's name. By the time the Narrator's insomnia returned, Tyler had already firmly established himself in the world behind the Narrator's back.",
+    "created_at": "2022-10-01T08:27:14.645Z",
+    "updated_at": "2022-10-01T08:27:14.645Z",
+    "status": "active"
+  }
+},
+{
+  "model": "webapp.guestslist",
+  "pk": 10,
+  "fields": {
+    "author": "Marla Singer",
+    "email": "singer@gmail.com",
+    "content": "“Marla's philosophy of life, she told me, is that she can die at any moment. The tragedy of her life is that she doesn't.” Marla is the love & hate interest in Tyler’s life, but lets not forget Marla met Tyler at a very strange time in his life.",
+    "created_at": "2022-10-01T08:28:50.561Z",
+    "updated_at": "2022-10-01T08:28:50.563Z",
+    "status": "active"
+  }
+},
+{
+  "model": "webapp.guestslist",
+  "pk": 11,
+  "fields": {
+    "author": "Angel Face",
+    "email": "aface@gmail.com",
+    "content": "He was blonde and described as being \"beautiful,\" hence the name Angel Face. The Narrator developed a jealous hatred for Angel Face after Tyler showed favoritism. The Narrator noted his \"inflamed sense of rejection\" and delivered a savage beating to Angel Face, causing him to be \"less beautiful\" from then on.",
+    "created_at": "2022-10-01T08:29:31.426Z",
+    "updated_at": "2022-10-01T08:29:31.426Z",
+    "status": "active"
+  }
+},
+{
+  "model": "webapp.guestslist",
+  "pk": 12,
+  "fields": {
+    "author": "Chloe",
+    "email": "chloe@gmail.com",
+    "content": "Chloe was a cancer patient who attended the support group along with The Narrator In her last days she shared that no one would have sex with her, and said she had pornographic movies, lubricant, and amyl nitrate (a euphoria inducing drug), in a desperate attempt to \"get laid\" one last time before dying. It is unknown if she was successful.\r\n\r\nThe Narrator thought she \"looked like the way Meryl Streep's skeleton would look if you made it smile and walk around a party being extra nice to everybody, but he told her she looked like a pirate\". He compared her to a skeleton dipped in yellow wax.",
+    "created_at": "2022-10-01T08:31:35.932Z",
+    "updated_at": "2022-10-01T08:32:25.014Z",
+    "status": "blocked"
+  }
+}
+]
