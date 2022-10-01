@@ -9,3 +9,7 @@ class GuestsListForm(forms.Form):
                               required=True,
                               label='Text:',
                               widget=widgets.Textarea(attrs={"cols": 50, "rows": 5}))
+
+
+class GuestSearchForm(forms.Form):
+    author = forms.CharField(max_length=200, required=True, label='Name')
