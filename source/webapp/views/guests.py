@@ -38,14 +38,12 @@ def update_view(request, pk):
     return render(request, 'guest_update.html', context={'guest': guest})
 
 
-# def delete_view(request, pk):
-#     guest = get_object_or_404(GuestsList, pk=pk)
-#     return render(request, 'guest_confirm_delete.html', context={'task': task})
-#
-#
-# def confirm_delete(request, pk):
-#     task = get_object_or_404(TasksList, pk=pk)
-#     task.delete()
-#     return redirect('index')
-#
-#
+def delete_view(request, pk):
+    guest = get_object_or_404(GuestsList, pk=pk)
+    return render(request, 'guest_confirm_delete.html', context={'guest': guest})
+
+
+def confirm_delete(request, pk):
+    guest = get_object_or_404(GuestsList, pk=pk)
+    guest.delete()
+    return redirect('index')

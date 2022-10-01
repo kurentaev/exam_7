@@ -10,4 +10,3 @@ def index_view(request):
         "choices": StatusChoices.choices
     }
     return render(request, "index.html", context)
-

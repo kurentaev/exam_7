@@ -10,7 +10,7 @@
                   <div class="card-body">
                     <p class="card-title">{{ guest.author }} ({{ guest.email }})
                     <a class="btn btn-danger mx-1" href="{% url 'guest_update' guest.pk %}">X</a>
-                    <a class="btn btn-danger mx-1" href="#">O</a>
+                    <a class="btn btn-danger mx-1" href="{% url 'guest_delete' guest.pk %}">O</a>
                     </p>
                     <p class="card-text">{{ guest.content }}</p>
                   </div>
