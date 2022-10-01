@@ -8,4 +8,4 @@ class GuestsListForm(forms.Form):
     content = forms.CharField(max_length=3000,
                               required=True,
                               label='Text:',
-                              widget=widgets.Textarea(attrs={"cols": 40, "rows": 3}))
+                              widget=widgets.Textarea(attrs={"cols": 50, "rows": 5}))

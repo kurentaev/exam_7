@@ -1,15 +1,15 @@
 {% extends 'base.html' %}
 
 {% block title %}
-New guest add
+Guest update
 {% endblock %}
 
 {% block content %}
       <main role="main" class="inner cover">
         <p class="lead">
-            <form action="{% url 'guest_add' %}" method="POST">
+            <form action="{% url 'guest_update' guest.pk %}" method="POST">
                 <div class="form">
-                  {% include 'partial/guest_form.html' with button_text='Create' %}
+                    {% include 'partial/guest_form.html' with button_text='Edit' %}
                 </div>
             </form>
       </main>
@@ -18,4 +18,5 @@ New guest add
           <p>Kurentaev Adlet <a href="/">Contacts</a></p>
         </div>
       </footer>
+
 {% endblock %}
